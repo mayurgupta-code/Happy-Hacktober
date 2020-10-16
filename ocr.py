@@ -29,6 +29,6 @@ im_blur = blur(im_gray)
 im_thresh = threshold(im_blur)
 
 text = pytesseract.image_to_string(im_thresh)
-# print text
-#text = text.split('\n')
+print (text)
+text = text.split('\n')
 print(text)
